@@ -1,6 +1,6 @@
 resource "aws_subnet" "main" {
   vpc_id     = "default"
-  cidr_block = "192.168.0.0/32"
+  cidr_block = "10.0.1.0/24"
 
   tags = {
     Name = "my-subnet"
